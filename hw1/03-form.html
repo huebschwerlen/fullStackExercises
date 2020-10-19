@@ -9,6 +9,33 @@
   </head>
   <body>
     <!-- add your code below -->
-    <p>exercise #3 - creating a form</p>
+    <!-- <p>exercise #3 - creating a form</p> -->
+
+    <form>
+      <h1>CONTACT FORM</h1>
+
+      <label for="Name">Name <span>(required)</span></label>
+
+      <input type="text" id="Name" name="Name" required="required" />
+
+      <label for="Email">Email Address <span>(required)</span></label>
+
+      <input type="text" required="required" />
+
+      <label for="Comments">Comments?</label>
+
+      <!-- <input type="text" /> -->
+      <textarea type="text" rows="5" cols="50"></textarea>
+
+      <div class="flex">
+        <input type="checkbox" value="Sign up" alt="Sign up" checked/>
+        <label for="Newsletter">Sign up for newsletter</label>
+      </div>
+
+      <!-- <p>Sign up for newsletter</p> -->
+
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
+

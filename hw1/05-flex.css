@@ -15,3 +15,18 @@
 }
 
 /* Add your code here */
+
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+
+}
+
+.flex-item {
+  margin: auto;
+}
+
+/* .item1 {
+  display: flex;
+} */

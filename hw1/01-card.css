@@ -1,9 +1,100 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
   color: #555;
+  /* box-sizing: border-box; */
+}
+
+/* div {
+  float: left;
+  margin: auto;
+} */
+
+/* .wrapper {
+  float: left;    here???or in .container???
+} */
+
+.container {
+  display: inline-block;
+  margin: auto 2px;
+
+  border: 2px solid lightgrey;
+  width: 30%;
+
+  /*display: float;*/ /*used in lecture example???*/
+  /* float: left; */
+
+  height: auto;
+  padding: 0px 20px 10px;
+  border-radius: 3px;
+
+
+  /* background-color: lavender; */
+}
+
+/* Clear floats after the columns */
+/* .wrapper:after {
+  content: ""; /* ?????? */
+  /*display: table; /* ?????? */
+  /*clear: both;
+} */
+
+
+/* 
+#cont1 {
+  display: inline-block;
+}
+
+#cont2 {
+  display: inline-block;
+}
+
+#cont3 {
+  display: inline-block;
+} */
+
+
+h1 {
+  font-size: 3vw;
+}
+
+.image {
+  /* height: 200px; */
+  width: 100%;
+}
+
+.text {
+  overflow: hidden;
+  width: 92%;
+  height: auto;
+  line-height: 1.4;
+  text-align: left;
+  font-size: 1em;
 }
 
 a {
+  text-decoration: none;
   color: rgb(0, 96, 96);
+  font-size: 1.2em;
 }
+
+/* get chevron smaller and more compact??*/
+/* span b {
+  font-size: 15px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  font-weight: bolder;
+  font-stretch: ultra-condensed;
+} */
+

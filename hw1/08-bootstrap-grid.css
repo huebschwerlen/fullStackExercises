@@ -12,3 +12,40 @@
   background-color: var(--red);
   background-color: darkgreen; 
 */
+.row {
+  margin: 0rem 1.5rem;
+}
+
+.col,
+.col-4,
+.col-8 {
+  height: 5rem;
+}
+
+.navy {
+  background-color: navy;
+}
+.purp {
+  background-color: purple;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.vio {
+  background-color: mediumvioletred;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: darkgreen;
+}
+
+
+
+
+
