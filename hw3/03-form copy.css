@@ -1,0 +1,58 @@
+/* Add your styles here  */
+form {
+    margin-top: 10vh;
+  }
+  
+  button {
+    width: 48%;
+  }
+
+  .bg-secondary {
+    background-color:#343a40 !important;
+  }
+
+  .col-lg-6 {
+    max-width: 30%;
+  }
+
+  .offset-lg-3 {
+    margin-left: 33%;
+  }
+  
+  
+  @media only screen and (max-width: 414px) {
+    .col-lg-6 {
+      max-width: 61% !important;
+      min-width: 84%;
+    }
+  
+    .offset-lg-3 {
+      margin-left: 8% !important;
+    }
+
+  }
+
+  @media only screen and (max-width: 924px) {
+    .col-lg-6 {
+      max-width: 61% !important;
+      min-width: 87%;
+    }
+  
+    .offset-lg-3 {
+      margin-left: 6% !important;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .col-lg-6 {
+      max-width: 30%;
+    }
+  
+    .offset-lg-3 {
+      margin-left: 33%;
+    }
+
+
+  }
