@@ -54,7 +54,7 @@ Run NPM install in terminal once you're in HW3 root
 1) go to https://ancient-eyrie-20150.herokuapp.com/catalog   to see completed, deployed app tutorial 
     * for some reason I had to create a different repo in my main github to deploy this site : to see that repo with the deployed version visit:                           https://github.com/huebschwerlen/express-locallibrary-tutorial
     
-2) and/or, in your terminal, navigate into directory express-locallibrary-tutorial-main in hw3 folder (this should be identical(or near) to the other repo above). 
+2) and/or, in your terminal, navigate into directory 06-express in hw3 root folder then go into directory: express-locallibrary-tutorial-main (this should be identical(or near) to the other repo above). 
 3) run: npm install   in the terminal
 4) enter: npm run start    into your terminal
 5) you should be able to now navigate to http://localhost:3000/catalog and navigate through the site 
