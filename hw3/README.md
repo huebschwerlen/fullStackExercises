@@ -50,13 +50,6 @@ Run NPM install in terminal once you're in HW3 root
 /regions :  with the number of countries in each region of the world, according to the API data.
 
 
-
-
-
-
-
-Frameworks / tutorials:
-
 06-Express-Tutorial
 1) go to https://ancient-eyrie-20150.herokuapp.com/catalog   to see completed, deployed app tutorial 
     * for some reason I had to create a different repo in my main github to deploy this site : to see that repo with the deployed version visit:                           https://github.com/huebschwerlen/express-locallibrary-tutorial
