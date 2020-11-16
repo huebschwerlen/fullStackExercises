@@ -30,7 +30,7 @@ app.post("/submit", (req, res) => {
       "Comments: " +
       req.body.comments +
       "<br>" +
-      "NewsLetter: " +
+      "Newsletter: " +
       newsVar
   );
 });
