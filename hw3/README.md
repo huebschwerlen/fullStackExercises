@@ -61,4 +61,5 @@ Run NPM install in terminal once you're in HW3 root
 .....here are some routes to try:   https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#Testing_the_routes
 
 07-React-Tutorial
-
+1) in the terminal navigate to 07-react folder in HW3 folder - then navigate into my-app folder
+2) enter: npm start in terminal and it should take you to a tic tac toe game at http://localhost:3000/
