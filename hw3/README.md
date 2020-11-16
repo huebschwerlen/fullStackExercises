@@ -42,18 +42,20 @@ Run NPM install in terminal once you're in HW3 root
 05- Templating engine exercise
 1) in the terminal while you're still in HW3 root enter: node 05-templates.js to run exercise 5
 2) you should receive a message saying : Server running at http://localhost:5000 ... copy the URL it provides you and enter it in your browser along with one of these three paths:
-/main ​- return the list of all the countries in the world and their capitals.
-/populous​ - return the list of countries with a population of least 20 million, starting with the most populous.
-/regions​ - with the number of countries in each region of the world, according to the API data.
 
-Frameworks / tutorials:
+/main : return the list of all the countries in the world and their capitals.
+
+/populous : return the list of countries with a population of least 20 million, starting with the most populous.
+
+/regions :  with the number of countries in each region of the world, according to the API data.
+
 
 06-Express-Tutorial
 1) go to https://ancient-eyrie-20150.herokuapp.com/catalog   to see completed, deployed app tutorial 
     * for some reason I had to create a different repo in my main github to deploy this site : to see that repo with the deployed version visit:                           https://github.com/huebschwerlen/express-locallibrary-tutorial
     
-2) and/or navigate into directory express-locallibrary-tutorial-main in hw3 folder (this should be identical(or near) to the other repo above). 
-3) run a npm install
+2) and/or, in your terminal, navigate into directory 06-express in hw3 root folder then go into directory: express-locallibrary-tutorial-main (this should be identical(or near) to the other repo above). 
+3) run: npm install   in the terminal
 4) enter: npm run start    into your terminal
 5) you should be able to now navigate to http://localhost:3000/catalog and navigate through the site 
 .....here are some routes to try:   https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#Testing_the_routes
