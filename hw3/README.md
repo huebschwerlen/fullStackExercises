@@ -42,9 +42,13 @@ Run NPM install in terminal once you're in HW3 root
 05- Templating engine exercise
 1) in the terminal while you're still in HW3 root enter: node 05-templates.js to run exercise 5
 2) you should receive a message saying : Server running at http://localhost:5000 ... copy the URL it provides you and enter it in your browser along with one of these three paths:
-/main ​- return the list of all the countries in the world and their capitals.
-/populous​ - return the list of countries with a population of least 20 million, starting with the most populous.
-/regions​ - with the number of countries in each region of the world, according to the API data.
+
+/main : return the list of all the countries in the world and their capitals.
+
+/populous : return the list of countries with a population of least 20 million, starting with the most populous.
+
+/regions :  with the number of countries in each region of the world, according to the API data.
+
 
 Frameworks / tutorials:
 
